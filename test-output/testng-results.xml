@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Hub Spot Test Sanity Suite" duration-ms="62810" started-at="2019-12-03T16:10:35Z" finished-at="2019-12-03T16:11:38Z">
+    <groups>
+    </groups>
+    <test name="hub spot Sanity Test" duration-ms="62810" started-at="2019-12-03T16:10:35Z" finished-at="2019-12-03T16:11:38Z">
+      <class name="com.hubspot.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="setUp" is-config="true" duration-ms="9080" started-at="2019-12-03T16:10:35Z" finished-at="2019-12-03T16:10:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:1, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="loginTest" duration-ms="1281" started-at="2019-12-03T16:10:45Z" description="login test with correct username and correct password..." finished-at="2019-12-03T16:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="tearDown" is-config="true" duration-ms="228" started-at="2019-12-03T16:10:46Z" finished-at="2019-12-03T16:10:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="setUp" is-config="true" duration-ms="7523" started-at="2019-12-03T16:11:01Z" finished-at="2019-12-03T16:11:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="loginPageTitleTest" duration-ms="1485" started-at="2019-12-03T16:11:09Z" description="login page title with correct title" finished-at="2019-12-03T16:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.LoginPageTest@55f45b92]" name="tearDown" is-config="true" duration-ms="244" started-at="2019-12-03T16:11:10Z" finished-at="2019-12-03T16:11:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.LoginPageTest -->
+      <class name="com.hubspot.tests.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="setUp" is-config="true" duration-ms="14614" started-at="2019-12-03T16:10:46Z" finished-at="2019-12-03T16:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:1, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="verifyHomePageTitleTest" duration-ms="53" started-at="2019-12-03T16:11:01Z" description="this method verifies home page title" finished-at="2019-12-03T16:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="tearDown" is-config="true" duration-ms="299" started-at="2019-12-03T16:11:01Z" finished-at="2019-12-03T16:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="setUp" is-config="true" duration-ms="13312" started-at="2019-12-03T16:11:10Z" finished-at="2019-12-03T16:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyHomePageHeader()[pri:2, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="verifyHomePageHeader" duration-ms="79" started-at="2019-12-03T16:11:24Z" description="this method verifies home page header" finished-at="2019-12-03T16:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageHeader -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="tearDown" is-config="true" duration-ms="315" started-at="2019-12-03T16:11:24Z" finished-at="2019-12-03T16:11:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="setUp" is-config="true" duration-ms="13490" started-at="2019-12-03T16:11:24Z" finished-at="2019-12-03T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoggedInUserInfo()[pri:3, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="verifyLoggedInUserInfo" duration-ms="91" started-at="2019-12-03T16:11:38Z" description="this method verifies the user who logged in" finished-at="2019-12-03T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoggedInUserInfo -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.hubspot.tests.HomePageTest@109f5dd8]" name="tearDown" is-config="true" duration-ms="322" started-at="2019-12-03T16:11:38Z" finished-at="2019-12-03T16:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.hubspot.tests.HomePageTest -->
+    </test> <!-- hub spot Sanity Test -->
+  </suite> <!-- Hub Spot Test Sanity Suite -->
+</testng-results>
